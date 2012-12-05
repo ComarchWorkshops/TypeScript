@@ -1,0 +1,125 @@
+﻿body
+{
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    background-image:url('res/gfx/bck.png');   
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    background-position-y: top;
+}
+
+header {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.70); 
+    font-size: 30px;
+    padding: 0px 5px 0px 0px;
+}
+
+nav {
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+footer {
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    height: 120px;
+    background-color:rgba(0, 0, 0, 0.70); 
+    font-size: 30px;
+    padding: 0px 5px 0px 0px;
+    text-align: center;
+    clear: both;
+}
+
+a 
+{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+    a:hover {
+        color: red;
+    }
+
+#main 
+{
+    padding: 5px 5px 5px 5px;
+}
+
+#titleDiv {
+    float: right;
+}
+
+.patientContainer
+{
+    background-color:rgba(0, 0, 0, 0.70); 
+    border: 1px black solid;
+    width: 400px;
+    color: #fff;
+    margin:5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+
+.infoContainer
+{
+    float: left;
+}
+
+.patientMainLabel 
+{
+    font-size: 26px;
+    color: inherit;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    background-color: #000000;
+}
+
+.patientSubLabel 
+{
+    font-size: 12px;
+}
+
+.binIcon {
+    border: 0px black solid;
+    display: inline-block;
+    vertical-align: central;
+    height: 100px;
+    width: 88px;
+    background-image:url('res/gfx/bin.png');    
+    margin: 10px 10px 10px 10px;
+}
+
+.binIconHighlight {
+    border: 0px black solid;
+    display: inline-block;
+    vertical-align: central;
+    height: 150px;
+    width: 132px;
+    background-color: rgba(255, 0, 0, 0.50);
+    background-image:url('res/gfx/bin.png'); 
+    background-size: 100% auto;
+}
+
+.photoDiv 
+{
+    background-color: #fff;
+    width: 150px;
+    height: 190px;
+    position: relative;
+    right: 5px;
+    float: right;
+    background-image:url('res/gfx/empty.png');
+    background-size: 100% auto;
+    opacity: 0.5;
+}
